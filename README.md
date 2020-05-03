@@ -14,7 +14,7 @@ Machine Learning , Flask , Face recognition and container based docker project
 <h3>Step 1:</h3>
 
 Download my docker image with this cmd :
-```docker pull cyberwizard:5```
+```docker pull cyberwizard/cyberwizard:6```
 
 <h3>Step 2:</h3>
 
