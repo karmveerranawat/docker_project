@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  finale:
+    image: cyberwizard:6
+    devices:
+        - /dev/video0:/dev/video0
+    volumes:
+        - /tmp/.X11-unix:/tmp/.X11-unix
+    environment: 
+        DISPLAY: $DISPLAY
+        QT_X11_NO_MITSHM: 1
+    tty: true    
+    stdin_open: true
+    ports:
+        - 5000:5000
