@@ -2,7 +2,7 @@ version: '3'
 
 services:
   finale:
-    image: cyberwizard:6
+    image: cyberwizard1/facial_server:1
     devices:
         - /dev/video0:/dev/video0
     volumes:
